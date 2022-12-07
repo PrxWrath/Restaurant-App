@@ -11,7 +11,7 @@
 }
 
 .banner{
-    height:60vh;
+    height:50vh;
     width:100%;
     z-index: 0;
     overflow:hidden;
@@ -20,7 +20,9 @@
 .banner img{
     height:100%;
     width: 105%;
+    z-index: 0;
     transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
     object-fit: cover;
 }
+
 

@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./Header.module.css";
 import HeaderCart from "./HeaderCart";
 import mealsBg from "../../resources/meals.jpg"
+import SummaryBanner from "./SummaryBanner";
 const Header = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const Header = () => {
       <div className={classes.banner}>
         <img src={mealsBg} alt="Delicious Meals"></img>
       </div>
+      <SummaryBanner/>
     </>
   );
 };
