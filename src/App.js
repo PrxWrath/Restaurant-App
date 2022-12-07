@@ -1,10 +1,13 @@
+import React from "react";
 import Header from "./components/Layout/Header";
+import Meals from "./components/Meals/Meals";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <Header/>      
-    </div>
+    <React.Fragment>
+      <Header/>
+      <Meals/>      
+    </React.Fragment>
   );
 }
 
