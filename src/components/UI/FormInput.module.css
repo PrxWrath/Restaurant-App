@@ -1,0 +1,23 @@
+.formInput{
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.formInput input{
+    width: 4rem;
+    height: 2rem;
+    padding: 0.4rem;
+    font-weight: bold;
+    background: none;
+    border: 1px solid #585659;
+    border-radius: 6px;
+}
+
+.formInput label{
+    font-size: 18px;
+    font-weight: bold;
+}
+

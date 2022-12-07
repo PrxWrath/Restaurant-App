@@ -1,0 +1,54 @@
+.mealItem{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height:max-content;
+    border-bottom: 1px solid #69616e;
+    transition: 0.2s ease-in-out;
+}
+.meal_item_content{
+    width: 80%;
+    padding: 0.3rem;
+    margin: 0.4rem 0.2rem;
+}
+
+.mealItem:hover{
+    transform: scale(1.01);
+}
+.mealTitle{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mealDesc{
+    font-size: 16px;
+    font-style: italic;
+}
+
+.mealPrice{
+    font-size: 22px;
+    font-weight: bold;
+    color: #4d0184;
+}
+
+.meal_amount_form{
+    margin:1rem;
+    width: 25%;
+}
+
+.meal_addBtn{
+    background-color: #6005b5;
+    color: #ffffff;
+    border: none;
+    border-radius: 18px;
+    width: 85%;
+    height: 2rem;
+    margin: 0.5rem auto;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.meal_addBtn:hover{
+    background-color: #380469;
+}
