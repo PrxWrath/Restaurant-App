@@ -8,7 +8,7 @@ const FormInput = (props) => {
         <input
             type={props.type}
             id={props.id}
-            value={props.value}
+            defaultValue={props.value}
             placeholder={props.placeholder}
             max={props.max}
             min={props.min}
