@@ -12,6 +12,7 @@ const FormInput = (props) => {
             placeholder={props.placeholder}
             max={props.max}
             min={props.min}
+            onChange={(e)=>{props.setQty(e.currentTarget.value)}}
         />
     </div>
   )
